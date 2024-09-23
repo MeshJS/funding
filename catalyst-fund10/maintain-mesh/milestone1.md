@@ -1,11 +1,11 @@
 |Project ID|1000107|
 |-----------|-------------|
 |Link|[Open full project](https://projectcatalyst.io/funds/10/f10-osde-open-source-dev-ecosystem/meshjs-sdk-operations-supporting-open-source-library-development-developer-resources-and-builder-community)|
-|Milestones|[Milestones](https://milestones.projectcatalyst.io/projects/1000107)
+|Milestones|[Milestone 1](https://milestones.projectcatalyst.io/projects/1000107/milestones/1)
 |Challenge|F10: OSDE: Open Source Dev Ecosystem|
-|Budget|ADA 169,413.00|
-|Start|October 2023|
-|End|August 2024|
+|Budget|ADA 33,882.00|
+|Delivered|March 19, 2024|
+
 
 ## Milestone 1 Report
 URGENT TO READ DEAR REVIEWER.
