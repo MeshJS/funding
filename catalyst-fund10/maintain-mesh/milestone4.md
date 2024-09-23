@@ -43,12 +43,12 @@ Excluding merges, 2 authors have pushed 6 commits to main and 6 commits to all b
 
 Additional insights can be gained from the individual github accounts of contributors
 
-Jingles: https://github.com/jinglescode 
-Abdel: https://github.com/abdelkrimdev 
-Hinson: https://github.com/HinsonSIDAN 
-James: https://github.com/workshop-maybe 
-Twwu: https://github.com/twwu123 
-Roberto: https://github.com/rober-m?tab=repositories 
+- Jingles: https://github.com/jinglescode 
+- Abdel: https://github.com/abdelkrimdev 
+- Hinson: https://github.com/HinsonSIDAN 
+- James: https://github.com/workshop-maybe 
+- Twwu: https://github.com/twwu123 
+- Roberto: https://github.com/rober-m?tab=repositories 
 
 You can as well easily audit and find out yourself when accessing a repository, from there go to “insights”, from there go to “contributors”. :)
 
