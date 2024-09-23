@@ -23,7 +23,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Challenge|	F11: Cardano Open: Developers|
 |Proposal Budget|ADA 150,000.00|
 |Status|Completed|
-|Milestones completed|0/5|
+|Milestones completed|5/5|
 
 
 ## Fund 12
