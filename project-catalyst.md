@@ -1,5 +1,7 @@
 # MeshJS Proposal Overview - Project Catalyst
 
+List of funded proposals from MeshJS at Cardano's Project Catalyst.
+
 ## Fund 10
 https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh 
 
