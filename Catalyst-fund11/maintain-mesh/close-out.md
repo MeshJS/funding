@@ -1,3 +1,14 @@
+|Project ID|1100271|
+|-----------|-------------|
+|Name|Sustain & Maintain MeshJS|
+|Link|[Open full project](https://projectcatalyst.io/funds/11/cardano-open-developers/sustain-and-maintain-meshjs)|
+|Milestones|[Milestones](https://milestones.projectcatalyst.io/projects/1100271)
+|Challenge|	F11: Cardano Open: Developers|
+|Proposal Budget|ADA 150,000.00|
+|Status|Completed|
+|Milestones completed|5/5|
+|Delivered|September 15, 2024|
+
 
 ## 1100271 Close Out Report
 
