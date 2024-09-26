@@ -26,7 +26,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Proposal Budget|ADA 150,000.00|
 |Status|Completed|
 |Milestones completed|5/5|
-
+|Finished|September 15, 2024|
 
 ## Fund 12
 
