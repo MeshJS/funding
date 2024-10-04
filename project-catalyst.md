@@ -13,8 +13,9 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Funding Category|F10: OSDE: Open Source Dev Ecosystem|
 |Proposal Budget|ADA 169,413.00|
 |Status|In Progress|
-|Milestones completed|4/5|
-|Finished|, 2024|
+|Milestones completed|5/5|
+|Finished|September, 2024|
+> pending close out video*
 
 ## Fund 11
 |Project ID|1100271|
