@@ -6,7 +6,7 @@ List of funded proposals from MeshJS at Cardano's Project Catalyst.
 https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh 
 
 |Project ID|1000107|
-|-----------|-------------|
+|:-----------|:-------------|
 |Name|MeshJS SDK Operations: Supporting Open-Source Library Development, Developer Resources & Builder Community|
 |Link|[Open full project](https://projectcatalyst.io/funds/10/f10-osde-open-source-dev-ecosystem/meshjs-sdk-operations-supporting-open-source-library-development-developer-resources-and-builder-community)|
 |Milestones|[Milestones](https://milestones.projectcatalyst.io/projects/1000107)
