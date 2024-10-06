@@ -39,7 +39,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Challenge|F12: Cardano Use Cases: Concept|
 |Proposal Budget|ADA 100,000.00|
 |Status|In Progress|
-|Milestones completed|0/5|
+|Milestones completed|1/5|
 
 |Project ID|1200220|
 |:-----------|:-------------|
@@ -49,7 +49,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Challenge|F12: Cardano Open: Developers|
 |Proposal Budget|	ADA 200,000.00|
 |Status|In Progress|
-|Milestones completed|0/5|
+|Milestones completed|1/5|
 
 |Project ID|1200147|
 |:-----------|:-------------|
