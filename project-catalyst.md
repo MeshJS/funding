@@ -19,7 +19,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 
 ## Fund 11
 |Project ID|1100271|
-|-----------|-------------|
+|:-----------|:-------------|
 |Name|Sustain & Maintain MeshJS|
 |Link|[Open full project](https://projectcatalyst.io/funds/11/cardano-open-developers/sustain-and-maintain-meshjs)|
 |Milestones|[Milestones](https://milestones.projectcatalyst.io/projects/1100271)
@@ -32,7 +32,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 ## Fund 12
 
 |Project ID|1200148|
-|-----------|-------------|
+|:-----------|:-------------|
 |Name|Mesh Software as a Service|
 |Link|[Open full project](https://projectcatalyst.io/funds/12/f12-cardano-use-cases-concept/mesh-software-as-a-service)|
 |Milestones|[Milestones](https://milestones.projectcatalyst.io/projects/1200148)|
@@ -42,7 +42,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Milestones completed|0/5|
 
 |Project ID|1200220|
-|-----------|-------------|
+|:-----------|:-------------|
 |Name|Sustain and Maintain Mesh SDK|
 |Link|[Open full project](https://projectcatalyst.io/funds/12/f12-cardano-open-developers/sustain-and-maintain-mesh-sdk)|
 |Milestones|[Milestones](https://milestones.projectcatalyst.io/projects/1200220)|
@@ -52,7 +52,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Milestones completed|0/5|
 
 |Project ID|1200147|
-|-----------|-------------|
+|:-----------|:-------------|
 |Name|Mesh New Features to Improve Developer experience and Cardano Adoption|
 |Link|[Open full project](https://projectcatalyst.io/funds/12/f12-cardano-open-developers/mesh-new-features-to-improve-developer-experience-and-cardano-adoption)|
 |Milestones|[Milestones](https://milestones.projectcatalyst.io/projects/1200147)|
