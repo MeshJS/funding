@@ -32,7 +32,8 @@ https://github.com/orgs/MeshJS/repositories
 Repository activities, November 2024
 We look on the repositories which receive currently most attention on development:
 Github repository: https://github.com/MeshJS/mesh 
-Excluding merges, 9 authors have pushed 84 commits to main and 105 commits to all branches. On main, 199 files have changed and there have been 24,314 additions and 13,568 deletions
+Excluding merges, 9 authors have pushed 84 commits to main and 105 commits to all branches. On main, 199 files have changed and there have been [24,314 additions and 13,568 deletions]([url](https://github.com/MeshJS/mesh/compare/673d35c3f06f376cad045ecac4b86e5a7daaf652...main))
+
 It may be relevant to mention that we have more than 500 dependencies from builder projects using our open source tooling at @MeshJS/mesh.
 https://github.com/MeshJS/mesh/network/dependents 
 
