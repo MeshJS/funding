@@ -2,9 +2,11 @@
 
 List of funded proposals from MeshJS at Cardano's Project Catalyst.
 
-![image](https://github.com/user-attachments/assets/02572a97-414b-4aff-b3ce-bc7a0a991040)
-![image](https://github.com/user-attachments/assets/9831a363-5cba-4eb4-aecc-0291a560c772)
-![image](https://github.com/user-attachments/assets/2d267585-f40a-420d-8633-9df6f9fa7055)
+![image](https://github.com/user-attachments/assets/f55741ea-ba91-4420-b9cf-44c97dd9fccb)
+![image](https://github.com/user-attachments/assets/27e4dd82-ea62-4aef-a9e0-b32a80993c5c)
+![image](https://github.com/user-attachments/assets/9d141669-2816-40cb-9c1f-f3eba7f36129)
+![image](https://github.com/user-attachments/assets/3de51465-8aa4-4a6e-a1f1-ace0d52d3304)
+
 
 
 
