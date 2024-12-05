@@ -2,8 +2,7 @@
 
 List of funded proposals from MeshJS at Cardano's Project Catalyst.
 
-## Fund 10
-https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh 
+# Fund 10
 
 |Project ID|1000107|
 |:-----------|:-------------|
@@ -17,7 +16,8 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Finished|September, 2024|
 > pending close out video*
 
-## Fund 11
+# Fund 11
+
 |Project ID|1100271|
 |:-----------|:-------------|
 |Name|Sustain & Maintain MeshJS|
@@ -29,7 +29,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Milestones completed|5/5|
 |Finished|September 15, 2024|
 
-## Fund 12
+# Fund 12
 
 |Project ID|1200148|
 |:-----------|:-------------|
@@ -49,7 +49,7 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Challenge|F12: Cardano Open: Developers|
 |Proposal Budget|	ADA 200,000.00|
 |Status|In Progress|
-|Milestones completed|1/5|
+|Milestones completed|3/5|
 
 |Project ID|1200147|
 |:-----------|:-------------|
@@ -59,4 +59,4 @@ https://github.com/MeshJS/funding/tree/main/catalyst-fund10/maintain-mesh
 |Challenge|F12: Cardano Open: Developers|
 |Proposal Budget|ADA 200,000.00|
 |Status|In Progress|
-|Milestones completed|0/5|
+|Milestones completed|1/5|
