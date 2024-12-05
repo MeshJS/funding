@@ -4,7 +4,7 @@
 
 Here is a demo of how CIP 45 works end-to-end using the latest React UI component.
 
-![](cip45.mov)
+![](./cip45.mov)
 
 ## Finalised Mesh Wallet: Finalise all wallet endpoints
 
