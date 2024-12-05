@@ -4,7 +4,9 @@
 
 Here is a demo of how CIP 45 works end-to-end using the latest React UI component.
 
-![](./cip45.mov)
+<video width="640" height="480" controls>
+  <source src="./cip45.mov" type="video/mov">
+</video>
 
 ## Finalised Mesh Wallet: Finalise all wallet endpoints
 
