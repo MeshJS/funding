@@ -2,17 +2,15 @@
 
 ## Finalised Mesh <> CIP 45: Set up dApp peer module
 
-Here is a demo of how CIP 45 works end-to-end using the latest React UI component.
+Here is a [demo](./assets/cip45.mov) of how CIP 45 works end-to-end using the latest React UI component.
 
-<video width="640" height="480" controls>
-  <source src="https://raw.githubusercontent.com/MeshJS/funding/main/catalyst-fund12/new-features/cip45.mov" type="video/mov">
-</video>
+![](./assets/wallet-cip45.png)
 
 ## Finalised Mesh Wallet: Finalise all wallet endpoints
 
 All endpoints can be found here: https://meshjs.dev/apis/wallets/meshwallet
 
-![image info](./meshwallet.png)
+![](./assets/meshwallet.png)
 
 ## Finalised Mesh Wallet: Yaci support development
 
