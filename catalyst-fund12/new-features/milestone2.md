@@ -33,7 +33,9 @@ All code is hosted under the repositories at https://github.com/MeshJS/mesh/tree
 
 - https://github.com/MeshJS/mesh?tab=Apache-2.0-1-ov-file#readme 
 - https://github.com/MeshJS/mesh-saas?tab=Apache-2.0-1-ov-file#readme
-We hope our work and report finds you well and will be approved. For any questions, feel free to reach out on:
+- 
+We hope our work and report finds you well and will be approved.
 
-Email: hello@meshjs.dev
-Discord: https://discord.gg/hCbuZGwr2B 
+For any questions, feel free to reach out on:
+- Email: hello@meshjs.dev
+- Discord: https://discord.gg/hCbuZGwr2B 
