@@ -66,4 +66,4 @@ List of funded proposals from MeshJS at Cardano's Project Catalyst.
 |Challenge|F12: Cardano Open: Developers|
 |Proposal Budget|ADA 200,000.00|
 |Status|In Progress|
-|Milestones completed|2/5|
+|Milestones completed|3/5|
