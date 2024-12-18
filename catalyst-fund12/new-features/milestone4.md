@@ -8,7 +8,7 @@
 
 
 
-# Milestone 4
+# Milestone 4 Report
 
 Hey there Milestone reviewers, voters and anyone follwoing the progress of our proposal.
 We are gald to also have completed Milestone 4 of the proposal, now being fully on track with previous delays.
