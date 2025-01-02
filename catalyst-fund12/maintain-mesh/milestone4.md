@@ -12,13 +12,13 @@ https://milestones.projectcatalyst.io/projects/1200220
 
 Hey there Milestone reviewers :)
 Here we are again, reporting on the successful completion of our third Milestone covering MeshJS tech & community maintenance for December 2024. Our stated milestone outcomes and acceptance criteria has been stated as:
-Monthly report on MeshJS github and Discord activities to prove the maintenance and activities of > MeshJS. The report includes metrics such as:
-Number of active GitHub repositories on MeshJS GitHub
-Number of active open source licences on MeshJS repository
-Monthly summary of GitHub repository activities:
-Active Discord Server
-Number of active public channels on MeshJS Discord server.
-Number of private support channels ON MeshJS Discord server.
+- Monthly report on MeshJS github and Discord activities to prove the maintenance and activities of > MeshJS. The report includes metrics such as:
+> Number of active GitHub repositories on MeshJS GitHub
+> Number of active open source licences on MeshJS repository
+> Monthly summary of GitHub repository activities:
+- Active Discord Server
+> Number of active public channels on MeshJS Discord server.
+> Number of private support channels ON MeshJS Discord server.
 
 So, here is the report on each item.
 
