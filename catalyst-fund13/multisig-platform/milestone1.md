@@ -23,23 +23,27 @@ The acceptance criteria of this milestone has been stated as:
 And here is the evidence of Milestone completion, including all relevant links to assess and audit our work.
 
 - Completed feature for users to vote on onchain Governance Actions
+  
 Users can submit voting transactions as multisig directly within the Multisig platform, once the vote tx is submitted by a multisig signer, a notification at the multisig wallet lets other signers know about their required signing of the vote tx. The vote is only submitted onchain once the quorum of the multisig signers has been reached.
 Feature live and accessible at:
 https://multisig.meshjs.dev/ 
 
 - Completed feature for user to access and view submitted onchain Governance Actions
+  
 Users are able to view and access submitted onchain Governance Actions by accessing the Governance tab within the multisig platform.
 https://multisig.meshjs.dev/wallets/cm5c5atj50003faxjsdk860an/governance 
 (user must be logged in via “connect wallet” in order to access)
 
 
-- Completed feature for user to issue onchain DRep certificate 
+- Completed feature for user to issue onchain DRep certificate
+  
 Users are able to directly mint a onchain DRep certificate with the multisig, allowing groups to register as DRep and to engage at Cardano Governance.	
 The registration can be easily done via accessing the “governance” tab
 https://multisig.meshjs.dev/wallets/cm5c5atj50003faxjsdk860an/governance 
 
 
-- Completed feature for user to delegate to DRep’s 
+- Completed feature for user to delegate to DRep’s
+  
 Users are now able to view and delegate their multisig directly to a DRep via the multisig platform
 https://multisig.meshjs.dev/governance/drep 
 
