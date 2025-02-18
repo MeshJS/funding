@@ -40,19 +40,19 @@ https://multisig.meshjs.dev/wallets/cm5c5atj50003faxjsdk860an/governance
 Users are able to directly mint a onchain DRep certificate with the multisig, allowing groups to register as DRep and to engage at Cardano Governance.	
 The registration can be easily done via accessing the “governance” tab
 https://multisig.meshjs.dev/wallets/cm5c5atj50003faxjsdk860an/governance 
-
+(user must be logged in via “connect wallet” in order to access)
 
 - Completed feature for user to delegate to DRep’s
   
 Users are now able to view and delegate their multisig directly to a DRep via the multisig platform
 https://multisig.meshjs.dev/governance/drep 
 
-- You can find all the code on our Mesh repo at Github on:
+- You can find all the code on our Mesh repo on Github at:
 https://github.com/MeshJS/multisig 
 
 ## Else
 
-Proudly over-delivering…
+- Proudly over-delivering…
 Since we started hacking around the platform already before the onboarding process for this proposal took place, we gained quite some time which we used to ship some additional features from which we hope to be helpful for users. 
 All currently deployed features can be found at
 https://multisig.meshjs.dev/features 
