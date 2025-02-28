@@ -44,7 +44,7 @@ https://github.com/MeshJS/mesh/network/dependents
 (quite a few well known Cardano projects using our code, nice nice)
 
 
-### Mesh Discord Server
+## Mesh Discord Server
 Same as our github repo’s, our Discord server is kept well active and maintained and we see a constant engagement from developers and our crew who are quick in responding to questions and issues. 
 
 Here the Server activity for February 2025 in numbers.
@@ -68,7 +68,7 @@ https://discord.gg/hCbuZGwr2B
 
  
 
-### And that's it… for this month
+## And that's it… for this month
 Overall, very glad to see the mesh machine running smoothly and steadily. We see increased number of projects using our open source code, have the capacities to always update and maintain developer tooling and see a growing developer community on our Discord. Since our debut in 2022, we have gained a quite strong reputation in the developer ecosystem since many directly benefit from our work, we build active collaborations and engagements with other cardano builder projects and have become a well orchestrated place for newcomers as well as veterans who want to build on Cardano. 
 
 For more:
