@@ -22,15 +22,17 @@ And here is the evidence of Milestone completion, including all relevant links t
 
 #### 1) Hydra Provider Integration: Establish a connection with a Hydra node.
 
-The entire Hydra package is done and is available at https://github.com/MeshJS/mesh/tree/main/packages/hydra  . 
-When published, users can install it using `npm install @meshsdk/hydra`. https://www.npmjs.com/package/@meshsdk/hydra 
-The Hydra Provider is available at https://github.com/MeshJS/mesh/blob/main/packages/hydra/src/hydra-provider.ts
+- The entire Hydra package is done and is available at https://github.com/MeshJS/mesh/tree/main/packages/hydra  . 
+- When published, users can install it using `npm install @meshsdk/hydra`. https://www.npmjs.com/package/@meshsdk/hydra 
+- The Hydra Provider is available at https://github.com/MeshJS/mesh/blob/main/packages/hydra/src/hydra-provider.ts
 
 #### 2) Base Functionality: Develop foundational functions to support Hydra processes
 
-All types are defined in https://github.com/MeshJS/mesh/tree/main/packages/hydra/src/types 
-All functions "shapes" and inputs have been defined in https://github.com/MeshJS/mesh/blob/main/packages/hydra/src/hydra-provider.ts 
-Public links to the code on mesh github repository at https://github.com/MeshJS/mesh/tree/main/packages/hydra 
+- All types are defined in https://github.com/MeshJS/mesh/tree/main/packages/hydra/src/types 
+- All functions "shapes" and inputs have been defined in https://github.com/MeshJS/mesh/blob/main/packages/hydra/src/hydra-provider.ts 
+- Public links to the code on mesh github repository at https://github.com/MeshJS/mesh/tree/main/packages/hydra
+
+
 We hope that all sources satisfy your assessment and audit requirements.
 
 Yours
