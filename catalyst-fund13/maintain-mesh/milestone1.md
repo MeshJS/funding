@@ -29,7 +29,7 @@ At the date of February, 2025, MeshJS hosts a total of 39 repositories on the Me
 You can find all public Mesh github repositories under:
 https://github.com/orgs/MeshJS/repositories.
 
-### MeshJS/mesh
+## MeshJS/mesh
 https://github.com/MeshJS/mesh 
 Our core repository at meshjs/mesh is active and well maintained and we see a healthy increase of projects using our open source code stack to build their own projects, here our core repo in numbers.
 
