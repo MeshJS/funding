@@ -2,10 +2,10 @@
 
 List of funded proposals from MeshJS at Cardano's Project Catalyst.
 
-![image](https://github.com/user-attachments/assets/eac51a38-4938-47ee-82d1-e09ef02264c1)
+![image](https://github.com/user-attachments/assets/5429becb-914f-460f-ae0d-4c83ec45e00a)
 ![image](https://github.com/user-attachments/assets/a56dbffc-251a-41c2-850d-d5af6beacb0e)
 ![image](https://github.com/user-attachments/assets/63eaca88-d42e-45b4-b411-a6c6f281c33f)
-![image](https://github.com/user-attachments/assets/41913451-4333-47bb-b8fd-e0e4c6bc5797)
+![image](https://github.com/user-attachments/assets/40adb204-f7ba-4371-b51c-bb8d880585b9)
 ![image](https://github.com/user-attachments/assets/bc31de97-b466-4db3-8409-e87cf65de733)
 ![image](https://github.com/user-attachments/assets/5c1111f2-27a9-4351-ac92-82b0307f1d7e)
 ![image](https://github.com/user-attachments/assets/345781d0-1ca3-4248-923c-03d11198564e)
@@ -52,7 +52,7 @@ List of funded proposals from MeshJS at Cardano's Project Catalyst.
 |Challenge|F12: Cardano Use Cases: Concept|
 |Proposal Budget|ADA 100,000.00|
 |Status|In Progress|
-|Milestones completed|1/5|
+|Milestones completed|2/5|
 
 |Project ID|1200220|
 |:-----------|:-------------|
@@ -84,7 +84,7 @@ List of funded proposals from MeshJS at Cardano's Project Catalyst.
 |Challenge|F13: Cardano Open: Ecosystem|
 |Proposal Budget|ADA 99,016.00|
 |Status|In Progress|
-|Milestones completed|1/4|
+|Milestones completed|2/4|
 
 |Project ID|1300134|
 |:-----------|:-------------|
