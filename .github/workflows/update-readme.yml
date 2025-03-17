@@ -1,0 +1,65 @@
+name: Sync README from another repository
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Git identity
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Fetch README from source repository
+        run: |
+          # Replace these variables with your desired source repository information
+          SOURCE_REPO_OWNER="treasuryguild"
+          SOURCE_REPO_NAME="mesh-catalyst-tracker"
+          SOURCE_BRANCH="main"
+          README_PATH="README.md"
+          
+          # Create a temporary directory
+          TMP_DIR=$(mktemp -d)
+          
+          # Fetch the README file from the source repository
+          curl -s "https://raw.githubusercontent.com/$SOURCE_REPO_OWNER/$SOURCE_REPO_NAME/$SOURCE_BRANCH/$README_PATH" > $TMP_DIR/README.md
+          
+          # Check if the fetched file exists and is not empty
+          if [ -s "$TMP_DIR/README.md" ]; then
+            echo "Successfully fetched README from source repository"
+            # Replace the current README with the fetched one
+            cp $TMP_DIR/README.md ./README.md
+          else
+            echo "Failed to fetch README or README is empty"
+            exit 1
+          fi
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          # Check if there are any changes to commit
+          if git diff --quiet README.md; then
+            echo "No changes detected in README.md"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in README.md"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git add README.md
+          git commit -m "Sync README from source repository [skip ci]"
+          git push origin HEAD
