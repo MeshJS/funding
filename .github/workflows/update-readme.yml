@@ -23,7 +23,7 @@ jobs:
 
       - name: Fetch README from source repository
         run: |
-          # Replace these variables with your desired source repository information
+          # Set repository information for treasuryguild/mesh-catalyst-tracker
           SOURCE_REPO_OWNER="treasuryguild"
           SOURCE_REPO_NAME="mesh-catalyst-tracker"
           SOURCE_BRANCH="main"
@@ -32,22 +32,52 @@ jobs:
           # Create a temporary directory
           TMP_DIR=$(mktemp -d)
           
-          # Fetch the README file from the source repository
-          curl -s "https://raw.githubusercontent.com/$SOURCE_REPO_OWNER/$SOURCE_REPO_NAME/$SOURCE_BRANCH/$README_PATH" > $TMP_DIR/README.md
+          # Print the URL for debugging
+          FETCH_URL="https://raw.githubusercontent.com/$SOURCE_REPO_OWNER/$SOURCE_REPO_NAME/$SOURCE_BRANCH/$README_PATH"
+          echo "Fetching from: $FETCH_URL"
           
-          # Check if the fetched file exists and is not empty
-          if [ -s "$TMP_DIR/README.md" ]; then
+          # Save current README for comparison
+          if [ -f "./README.md" ]; then
+            cp ./README.md $TMP_DIR/old_README.md
+            echo "Saved current README for comparison"
+          fi
+          
+          # Fetch the README file from the source repository
+          HTTP_STATUS=$(curl -s -o $TMP_DIR/new_README.md -w "%{http_code}" "$FETCH_URL")
+          
+          # Check the HTTP status code
+          if [ "$HTTP_STATUS" -eq 200 ] && [ -s "$TMP_DIR/new_README.md" ]; then
             echo "Successfully fetched README from source repository"
+            # Show part of the fetched file
+            echo "First 10 lines of fetched README:"
+            head -n 10 $TMP_DIR/new_README.md
+            
+            # Check for actual differences
+            if [ -f "$TMP_DIR/old_README.md" ]; then
+              echo "Diff between current and fetched README:"
+              diff -u $TMP_DIR/old_README.md $TMP_DIR/new_README.md || echo "Files are different"
+            fi
+            
             # Replace the current README with the fetched one
-            cp $TMP_DIR/README.md ./README.md
+            cp $TMP_DIR/new_README.md ./README.md
           else
-            echo "Failed to fetch README or README is empty"
+            echo "Failed to fetch README. HTTP Status: $HTTP_STATUS"
             exit 1
           fi
 
       - name: Check for changes
         id: check_changes
         run: |
+          # Add debugging information
+          echo "Content of fetched README:"
+          cat README.md | head -n 10
+          
+          # Show git status to see if git detects changes
+          git status
+          
+          # Show git diff to see exact changes
+          git diff README.md
+          
           # Check if there are any changes to commit
           if git diff --quiet README.md; then
             echo "No changes detected in README.md"
@@ -58,8 +88,17 @@ jobs:
           fi
 
       - name: Commit and push changes
-        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          git add README.md
-          git commit -m "Sync README from source repository [skip ci]"
-          git push origin HEAD
+          # Force add the README
+          git add -f README.md
+          
+          # Try to commit even if git thinks there are no changes
+          git commit -m "Sync README from source repository [skip ci]" || echo "No changes to commit"
+          
+          # Only push if we actually made a commit
+          if git diff --quiet HEAD^ HEAD; then
+            echo "No real changes detected, skipping push"
+          else
+            echo "Changes committed, pushing to repository"
+            git push origin HEAD
+          fi
