@@ -42,7 +42,7 @@ For instance, developers create a transaction defined in JSON like:
 
 And call the endpoint, https://cloud.meshjs.dev/transaction/json-tx, with the JSON payload. The endpoint will return the transaction CBOR.
 
-[screenshot here]
+![Screenshot 2025-03-21 at 9.28.41 AM](https://hackmd.io/_uploads/rJ7JMS5hJg.png)
 
 ## Acceptance criteria #2
 
