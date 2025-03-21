@@ -14,7 +14,7 @@ Users can create a non-custodial wallet using social logins, no extra software o
 
 For developers, it is easy to intergrate too. Here is an example of how to use the user-controlled wallet:
 
-```
+```javascript
 import {
   InitWeb3WalletOptions,
   Web3Wallet,
@@ -37,7 +37,7 @@ const wallet = await Web3Wallet.enable(_options);
 
 Developers can create wallets on behalf of users, and manage the private keys. Here is an example of how to use the developer-controlled wallet:
 
-```
+```javascript
 import { Web3Sdk } from "@meshsdk/web3-sdk";
  
 const sdk = new Web3Sdk({
